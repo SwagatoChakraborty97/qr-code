@@ -1,0 +1,39 @@
+body{
+    background-color:rgba(207, 226, 242, 0.653);
+    margin: 0;
+}
+
+.content{
+    /* border:solid 2px black; */
+    padding: 12px;
+}
+
+.card{
+    background-color: white;
+    /* border: solid 3px black; */
+    border-radius: 15px;
+    height: fit-content;
+    width:min-content; 
+    margin:20vh auto;
+}
+
+.qr-img{
+    border-radius: 10px;
+    max-height: 8cm;
+}
+
+.bold{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.text{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width : 480px){
+    .card{
+        margin: 20vh auto;
+    }
+}
